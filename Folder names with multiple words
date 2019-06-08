@@ -1,0 +1,10 @@
+Folder names with multiple words
+In our example, the folder should be called "Second semester." We've just created a folder called "School" in order to stay organized. In theory, I'd run mkdir Second semester to create a folder inside called "Second semester," right?
+
+Nope! 😖  You need to make special considerations for folder names that contain spaces.
+
+Notice that, by running  mkdir  Second semester  , two folders (1. "Second," 2. "Semester") are created instead of one:
+
+By running mkdir Second semester, I've accidentally created 2 files: one called "Second" and one called "semester." This is because my computer interprets the space between the two words as a delineation between two folders names, not just a space in the middle of one name.
+
+Clearly, we need a different way to indicate "Second semester" is all one file name; not two separate ones.

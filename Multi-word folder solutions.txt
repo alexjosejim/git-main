@@ -1,0 +1,14 @@
+Multi-word folder solutions
+To create or reference a folder with multiple words in it, you have three options:
+
+use quotation marks, i.e.,  mkdir "Second semester"
+
+This says the folder name should include all characters inside the quotation marks.
+
+escape the special character (the character you're computer is interpreting in a special way) using a backslash, i.e, mkdir Second\ semester
+
+This says that the special meaning of the space between "Second" and "semester" should be ignored. We want a space to just be a literal space, not for Terminal to interpret it as a way to separate multiple folder names.
+
+In programming, you'll often use backslashes to escape special characters!
+
+use hyphens instead of spaces to create a different folder name entirely (i.e.,  mkdir Second-semester  )
